@@ -5,7 +5,7 @@ namespace Softonic\OpenApi\Validation\Format;
 use Opis\JsonSchema\IFormat;
 
 /**
- * Class Sha1
+ * Class Md5
  */
 final class Md5 implements IFormat
 {
