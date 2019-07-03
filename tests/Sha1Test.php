@@ -15,12 +15,12 @@ class Sha1Test extends TestCase
 
     /**
      * @dataProvider validSha1Provider
-     * @param mixed $uuid
+     * @param mixed $sha1
      */
-    public function testValidSha1($uuid)
+    public function testValidSha1($sha1)
     {
         $validator = new Sha1();
-        $this->assertTrue($validator->validate($uuid));
+        $this->assertTrue($validator->validate($sha1));
     }
 
     public function invalidSha1Provider()
@@ -32,11 +32,11 @@ class Sha1Test extends TestCase
 
     /**
      * @dataProvider invalidSha1Provider
-     * @param mixed $uuid
+     * @param mixed $sha1
      */
-    public function testInvalidSha1($uuid)
+    public function testInvalidSha1($sha1)
     {
         $validator = new Sha1();
-        $this->assertFalse($validator->validate($uuid));
+        $this->assertFalse($validator->validate($sha1));
     }
 }
