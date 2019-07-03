@@ -9,7 +9,7 @@ use Opis\JsonSchema\IFormat;
  */
 final class Md5 implements IFormat
 {
-    const PATTERN_FORMAT = '/^[0-9a-f]{64}$/i';
+    const PATTERN_FORMAT = '/^[0-9a-f]{32}$/i';
 
     /**
      * @param $data

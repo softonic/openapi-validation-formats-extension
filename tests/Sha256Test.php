@@ -32,7 +32,7 @@ class Sha256Test extends TestCase
 
     /**
      * @dataProvider invalidSha256Provider
-     * @param mixed $uuid
+     * @param mixed $sha256
      */
     public function testInvalidSha256($sha256)
     {

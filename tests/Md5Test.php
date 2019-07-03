@@ -32,7 +32,7 @@ class Md5Test extends TestCase
 
     /**
      * @dataProvider invalidMd5Provider
-     * @param mixed $uuid
+     * @param mixed $md5
      */
     public function testInvalidMd5($md5)
     {
