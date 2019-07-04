@@ -1,11 +1,11 @@
 version: '3.2'
 
 services:
-  test:
+  tests:
     volumes:
       - ./:/app
     image: ricc/composer-prestissimo:latest
-    command: composer run test
+    command: composer run tests
 
   fixcs:
     volumes:
