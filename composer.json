@@ -27,7 +27,7 @@
     }
   },
   "scripts": {
-    "test": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+    "tests": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
     "phpunit": "phpunit --coverage-text",
     "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
     "fix-cs": "php-cs-fixer fix -v --diff --allow-risky=yes;"
