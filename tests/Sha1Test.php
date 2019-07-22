@@ -15,7 +15,8 @@ class Sha1Test extends TestCase
 
     /**
      * @dataProvider validSha1Provider
-     * @param mixed $sha1
+     *
+     * @param string $sha1
      */
     public function testValidSha1($sha1)
     {
@@ -32,7 +33,8 @@ class Sha1Test extends TestCase
 
     /**
      * @dataProvider invalidSha1Provider
-     * @param mixed $sha1
+     *
+     * @param string $sha1
      */
     public function testInvalidSha1($sha1)
     {

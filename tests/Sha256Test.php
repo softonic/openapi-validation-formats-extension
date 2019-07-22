@@ -15,7 +15,8 @@ class Sha256Test extends TestCase
 
     /**
      * @dataProvider validSha256Provider
-     * @param mixed $sha256
+     *
+     * @param string $sha256
      */
     public function testValidSha256($sha256)
     {
@@ -32,7 +33,8 @@ class Sha256Test extends TestCase
 
     /**
      * @dataProvider invalidSha256Provider
-     * @param mixed $sha256
+     *
+     * @param string $sha256
      */
     public function testInvalidSha256($sha256)
     {
