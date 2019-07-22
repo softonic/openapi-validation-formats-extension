@@ -15,7 +15,8 @@ class Md5Test extends TestCase
 
     /**
      * @dataProvider validMd5Provider
-     * @param mixed $md5
+     *
+     * @param string $md5
      */
     public function testValidMd5($md5)
     {
@@ -32,7 +33,8 @@ class Md5Test extends TestCase
 
     /**
      * @dataProvider invalidMd5Provider
-     * @param mixed $md5
+     *
+     * @param string $md5
      */
     public function testInvalidMd5($md5)
     {

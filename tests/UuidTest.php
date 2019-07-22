@@ -20,7 +20,8 @@ class UuidTest extends TestCase
 
     /**
      * @dataProvider uuidProvider
-     * @param mixed $uuid
+     *
+     * @param string $uuid
      */
     public function testValidUuid($uuid)
     {
@@ -36,7 +37,8 @@ class UuidTest extends TestCase
 
     /**
      * @dataProvider invalidUuidProvider
-     * @param mixed $uuid
+     *
+     * @param string $uuid
      */
     public function testInvalidUuid($uuid)
     {
