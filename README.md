@@ -7,6 +7,8 @@ OpenApi validation formats extension
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/softonic/openapi-validation-formats-extension.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/openapi-validation-formats-extension/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/softonic/openapi-validation-formats-extension.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/openapi-validation-formats-extension)
 [![Total Downloads](https://img.shields.io/packagist/dt/softonic/openapi-validation-formats-extension.svg?style=flat-square)](https://packagist.org/packages/softonic/openapi-validation-formats-extension)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/softonic/openapi-validation-formats-extension.svg?style=flat-square)](http://isitmaintained.com/project/softonic/openapi-validation-formats-extension "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/softonic/gopenapi-validation-formats-extension.svg?style=flat-square)](http://isitmaintained.com/project/softonic/openapi-validation-formats-extension "Percentage of issues still open")
 
 This library adds some format validation for [OpenAPI validation middleware](https://github.com/hkarlstrom/openapi-validation-middleware) package.
 
